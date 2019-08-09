@@ -7,8 +7,10 @@
 //
 
 #import "FZViewController.h"
-
+#import "FZPhotoLibrary.h"
 @interface FZViewController ()
+
+
 
 @end
 

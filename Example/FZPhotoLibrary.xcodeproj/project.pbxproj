@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		028CE69CC10FDF32D355437F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		0F1C18426E20CA1EA586C2DE /* FZPhotoLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FZPhotoLibrary.podspec; path = ../FZPhotoLibrary.podspec; sourceTree = "<group>"; };
+		0F1C18426E20CA1EA586C2DE /* FZPhotoLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FZPhotoLibrary.podspec; path = ../FZPhotoLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		286A7C609CD69ED73ED2E6AB /* Pods_FZPhotoLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZPhotoLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C47FE108FAE0A42DAD21DCA /* Pods-FZPhotoLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZPhotoLibrary_Example.release.xcconfig"; path = "Target Support Files/Pods-FZPhotoLibrary_Example/Pods-FZPhotoLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FZPhotoLibrary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FZPhotoLibrary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };

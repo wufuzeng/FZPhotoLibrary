@@ -7,16 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05A362D2CEF823EFC41F6545DDBF4F18 /* FZPhotoLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DD0ED77C7EEA2C548F613751716FF70 /* FZPhotoLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A380437F07FCCFFACF608CEC0FC0A46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		09FFFA472AD937691C262704900F46F6 /* FZVideoAlbumHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B0E6A55441F121C7858866B0EC9B6B /* FZVideoAlbumHandler.m */; };
+		2A380437F07FCCFFACF608CEC0FC0A46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		2D002632BA3FA665D10A578F0B307456 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
 		2E59E2F24A6672B7E0870658314ACA5C /* Pods-FZPhotoLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BFD413D47BD4FCB053D66A42E2E232 /* Pods-FZPhotoLibrary_Example-dummy.m */; };
-		7DFED076D27954BFE19A586C210605E8 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E4C30EBEBADBA46C5AAEA7368B0F5 /* ReplaceMe.m */; };
+		31D7CA1082E1DDE28668641DE36D8712 /* FZPhotoLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1F2C2131DB76FDDE796BF39968F539 /* FZPhotoLibrary-dummy.m */; };
+		399B774F359945FAD0EBFA86A4C54FBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		4B301087B070A202E3FA547F068D6997 /* FZPHAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 7499E487A277FEAE6635A168F82995B6 /* FZPHAsset.m */; };
+		53DDFF2BEB56EC06A72470121021D135 /* FZImageAlbumHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D7932BC2BBEB2B183377D8C174094797 /* FZImageAlbumHandler.m */; };
+		5500C104EA1AF98904C5CE64C19FF304 /* FZImageAlbumHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 578C3532B2BC7D200F453256321AD47F /* FZImageAlbumHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		556F5DE35F61B48368619A057A8AF77F /* FZVideoAlbumHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F8CB23AFC567FF8808DA0EAD160DD8A /* FZVideoAlbumHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6566F8BF48E8D569077FD06758C379C6 /* FZAlbumHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 64E4A3095CEEA19755420037BC4DBB5E /* FZAlbumHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CB96A8E3AD84D3818D77CC2EECE25C8 /* FZPHAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = D413A73A6F97806F7AFA975C5FB62EB5 /* FZPHAlbum.m */; };
+		6F1AD5016996D960F1B332AA9370CDD6 /* FZPHAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = 04177FAB6B99F3BA769B0A873A335183 /* FZPHAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77ABA870BAA00B16FFE00B397451C31A /* FZAlbumHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EFECFBBFC4EE4961596268538E69DC /* FZAlbumHandler.m */; };
 		7FE0C96B1EA86DE320CED0AE13DBB044 /* Pods-FZPhotoLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B2B25816C8B77CF58221528ECF0D676 /* Pods-FZPhotoLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ADEDBFB1021AB68F0EDB58039F084DCD /* Pods-FZPhotoLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81929118DE787E0118C7FD2AFE40DEEB /* Pods-FZPhotoLibrary_Tests-dummy.m */; };
-		CBD03B2EE49397FD779F405A7ADB3FBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D6E68F46D04CB15BAB95B4788714CFA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D3019E1741D04F2BC8B6EAD3073DC803 /* FZPhotoLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D94C1503A7DBDBEB6E82AF76A44D1F5 /* FZPhotoLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6E68F46D04CB15BAB95B4788714CFA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 		E550755B61688EA5B2387B35257DEF44 /* Pods-FZPhotoLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 588A1734AD53318E3AA4DA8E55F2B7BC /* Pods-FZPhotoLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA7FDB9A8033357A3E4E2E9B2F73BEC1 /* FZPhotoLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B5A735D41DFF1DAE7E2D1D1C87230E /* FZPhotoLibrary-dummy.m */; };
+		F152702EBC800638F91CEF77333D596D /* FZPHAlbum.h in Headers */ = {isa = PBXBuildFile; fileRef = E06A6F622257BE486A419C004B18713B /* FZPHAlbum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F77225739210E51376FAB0179D74FF12 /* FZPhotoLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A59A78133DF1662F0C807E4F1108B6 /* FZPhotoLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,38 +48,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09A090E4344BCF8C3107E1FCC6895AFD /* FZPhotoLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FZPhotoLibrary.xcconfig; sourceTree = "<group>"; };
-		0D7D427AE8B6C82B5408039A17B850F3 /* FZPhotoLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FZPhotoLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		04177FAB6B99F3BA769B0A873A335183 /* FZPHAsset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FZPHAsset.h; sourceTree = "<group>"; };
+		0881CECD3CB72EA6EDBF197B334ADFEF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0DB360CC4227BF003F76D525E09E441C /* FZPhotoLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FZPhotoLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		170AA04037F1EABA517AD0C8BACA5D2E /* Pods-FZPhotoLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FZPhotoLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		22F14EACA6D14C11CB56B5028A7E5A53 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		26B0E6A55441F121C7858866B0EC9B6B /* FZVideoAlbumHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FZVideoAlbumHandler.m; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		3B2B25816C8B77CF58221528ECF0D676 /* Pods-FZPhotoLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FZPhotoLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
 		3E92219165371A56F41532FD2D8E5882 /* Pods-FZPhotoLibrary_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZPhotoLibrary_Example-Info.plist"; sourceTree = "<group>"; };
+		40EFECFBBFC4EE4961596268538E69DC /* FZAlbumHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FZAlbumHandler.m; sourceTree = "<group>"; };
 		41E448480BCB79FAA800E8D6EBE65ED7 /* Pods-FZPhotoLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZPhotoLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		475705051F1D97F3214C067952510A37 /* FZPhotoLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FZPhotoLibrary.framework; path = FZPhotoLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4777E53064458D84D3A08778B96A31A9 /* FZPhotoLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FZPhotoLibrary.modulemap; sourceTree = "<group>"; };
 		47BFD413D47BD4FCB053D66A42E2E232 /* Pods-FZPhotoLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FZPhotoLibrary_Example-dummy.m"; sourceTree = "<group>"; };
 		4AA31FB199727CEED62EF07FC5B02D8A /* Pods_FZPhotoLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FZPhotoLibrary_Example.framework; path = "Pods-FZPhotoLibrary_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5445A696A9AD9A55846D530FBEFF7A9F /* FZPhotoLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FZPhotoLibrary-Info.plist"; sourceTree = "<group>"; };
+		4D94C1503A7DBDBEB6E82AF76A44D1F5 /* FZPhotoLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FZPhotoLibrary-umbrella.h"; sourceTree = "<group>"; };
+		4F8CB23AFC567FF8808DA0EAD160DD8A /* FZVideoAlbumHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FZVideoAlbumHandler.h; sourceTree = "<group>"; };
+		5455BF4005BD8D42934AD93561723668 /* FZPhotoLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FZPhotoLibrary.modulemap; sourceTree = "<group>"; };
+		578C3532B2BC7D200F453256321AD47F /* FZImageAlbumHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FZImageAlbumHandler.h; sourceTree = "<group>"; };
 		588A1734AD53318E3AA4DA8E55F2B7BC /* Pods-FZPhotoLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FZPhotoLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5A39ED7B04670FBAD5F067060395FABF /* Pods-FZPhotoLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZPhotoLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
-		5DD0ED77C7EEA2C548F613751716FF70 /* FZPhotoLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FZPhotoLibrary-umbrella.h"; sourceTree = "<group>"; };
+		5E1F2C2131DB76FDDE796BF39968F539 /* FZPhotoLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FZPhotoLibrary-dummy.m"; sourceTree = "<group>"; };
 		5E36E117301AFEB06BA1DBA538EBC674 /* Pods-FZPhotoLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZPhotoLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5EEC17A33B6C19E974F1C12FC5E282BD /* Pods-FZPhotoLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZPhotoLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
+		63DD8ED68956EB37F8AECAEF90636D41 /* FZPhotoLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FZPhotoLibrary-prefix.pch"; sourceTree = "<group>"; };
+		64E4A3095CEEA19755420037BC4DBB5E /* FZAlbumHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FZAlbumHandler.h; sourceTree = "<group>"; };
+		66A59A78133DF1662F0C807E4F1108B6 /* FZPhotoLibrary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FZPhotoLibrary.h; path = FZPhotoLibrary/Classes/FZPhotoLibrary.h; sourceTree = "<group>"; };
 		7437FF4483594F2937DCF259F840BFEB /* Pods-FZPhotoLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FZPhotoLibrary_Example.modulemap"; sourceTree = "<group>"; };
-		7E3E4C30EBEBADBA46C5AAEA7368B0F5 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = FZPhotoLibrary/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		7499E487A277FEAE6635A168F82995B6 /* FZPHAsset.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FZPHAsset.m; sourceTree = "<group>"; };
 		81929118DE787E0118C7FD2AFE40DEEB /* Pods-FZPhotoLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FZPhotoLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
+		8D5C82F7FD54CA256B377F53A8CBFE8A /* FZPhotoLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FZPhotoLibrary.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EA29458ABCBCD24A6536E9D66894B09 /* Pods-FZPhotoLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FZPhotoLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A9EBA96DF92D2613E30894D2B95954CE /* Pods-FZPhotoLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZPhotoLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B1B6ED38B9090C7A19F8BF62ECF815DF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		BD389985072CAA60944A38683A5F0A26 /* Pods_FZPhotoLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FZPhotoLibrary_Tests.framework; path = "Pods-FZPhotoLibrary_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEAA0A94E1A0D8D9DA970DF974171316 /* Pods-FZPhotoLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZPhotoLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CC17122482BF9C9A3782199657F09A5F /* Pods-FZPhotoLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZPhotoLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D0D1C20FFA51725FC272C415797267CA /* Pods-FZPhotoLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FZPhotoLibrary_Tests.modulemap"; sourceTree = "<group>"; };
-		D227B6278A60A12920A6F7127B5C68A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D413A73A6F97806F7AFA975C5FB62EB5 /* FZPHAlbum.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FZPHAlbum.m; sourceTree = "<group>"; };
+		D7932BC2BBEB2B183377D8C174094797 /* FZImageAlbumHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FZImageAlbumHandler.m; sourceTree = "<group>"; };
+		DD050019777368020C86D0B19CF69C48 /* FZPhotoLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FZPhotoLibrary-Info.plist"; sourceTree = "<group>"; };
 		DE051BC270B0392D6C86F21E134F992A /* Pods-FZPhotoLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FZPhotoLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E76D139FF98D8E0B5895DC3FC811AB6A /* FZPhotoLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FZPhotoLibrary-prefix.pch"; sourceTree = "<group>"; };
-		F6B5A735D41DFF1DAE7E2D1D1C87230E /* FZPhotoLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FZPhotoLibrary-dummy.m"; sourceTree = "<group>"; };
+		E06A6F622257BE486A419C004B18713B /* FZPHAlbum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FZPHAlbum.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,11 +102,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B0A054C0B5BB573D3FB619DD6D5603C5 /* Frameworks */ = {
+		0D8410DAB96D5FDF6C9772D24DDE0351 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBD03B2EE49397FD779F405A7ADB3FBA /* Foundation.framework in Frameworks */,
+				399B774F359945FAD0EBFA86A4C54FBC /* Foundation.framework in Frameworks */,
+				2D002632BA3FA665D10A578F0B307456 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,15 +122,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		319D214949365F32F096C2D165233ACA /* FZPhotoLibrary */ = {
+		0B72D4BD80B420B6F1AF4B0014E2AF25 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7E3E4C30EBEBADBA46C5AAEA7368B0F5 /* ReplaceMe.m */,
-				D50ACA0B9F2841A65E7CB8F49842A2F8 /* Pod */,
-				725EED79FD8AD4C660B74DC82EDCB42E /* Support Files */,
+				18C6F03B2BA25D103818E3CCBFDEC005 /* FZPhotoLibrary */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18C6F03B2BA25D103818E3CCBFDEC005 /* FZPhotoLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				66A59A78133DF1662F0C807E4F1108B6 /* FZPhotoLibrary.h */,
+				F58ED39E6217DEB548688AE850EE85EE /* Core */,
+				4ACD90746E3278F5F5D549D499482055 /* Pod */,
+				DA0F97419243343777E709C9224F4FF5 /* Support Files */,
 			);
 			name = FZPhotoLibrary;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		4ACD90746E3278F5F5D549D499482055 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0DB360CC4227BF003F76D525E09E441C /* FZPhotoLibrary.podspec */,
+				0881CECD3CB72EA6EDBF197B334ADFEF /* LICENSE */,
+				B1B6ED38B9090C7A19F8BF62ECF815DF /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		4BC7201E80698313E6F9D9FB8E3F703B /* Products */ = {
@@ -118,20 +168,6 @@
 				BD389985072CAA60944A38683A5F0A26 /* Pods_FZPhotoLibrary_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		725EED79FD8AD4C660B74DC82EDCB42E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4777E53064458D84D3A08778B96A31A9 /* FZPhotoLibrary.modulemap */,
-				09A090E4344BCF8C3107E1FCC6895AFD /* FZPhotoLibrary.xcconfig */,
-				F6B5A735D41DFF1DAE7E2D1D1C87230E /* FZPhotoLibrary-dummy.m */,
-				5445A696A9AD9A55846D530FBEFF7A9F /* FZPhotoLibrary-Info.plist */,
-				E76D139FF98D8E0B5895DC3FC811AB6A /* FZPhotoLibrary-prefix.pch */,
-				5DD0ED77C7EEA2C548F613751716FF70 /* FZPhotoLibrary-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FZPhotoLibrary";
 			sourceTree = "<group>";
 		};
 		7619DEEF9116E9528F4CA339F4CA9F1F /* Pods-FZPhotoLibrary_Tests */ = {
@@ -150,49 +186,38 @@
 			path = "Target Support Files/Pods-FZPhotoLibrary_Tests";
 			sourceTree = "<group>";
 		};
-		940B3931954C344379B065A5634FA5D4 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				319D214949365F32F096C2D165233ACA /* FZPhotoLibrary */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				940B3931954C344379B065A5634FA5D4 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0B72D4BD80B420B6F1AF4B0014E2AF25 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				4BC7201E80698313E6F9D9FB8E3F703B /* Products */,
 				FD45E803BD5ED294938D01EDBBC165CD /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		DA0F97419243343777E709C9224F4FF5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				5455BF4005BD8D42934AD93561723668 /* FZPhotoLibrary.modulemap */,
+				8D5C82F7FD54CA256B377F53A8CBFE8A /* FZPhotoLibrary.xcconfig */,
+				5E1F2C2131DB76FDDE796BF39968F539 /* FZPhotoLibrary-dummy.m */,
+				DD050019777368020C86D0B19CF69C48 /* FZPhotoLibrary-Info.plist */,
+				63DD8ED68956EB37F8AECAEF90636D41 /* FZPhotoLibrary-prefix.pch */,
+				4D94C1503A7DBDBEB6E82AF76A44D1F5 /* FZPhotoLibrary-umbrella.h */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FZPhotoLibrary";
 			sourceTree = "<group>";
 		};
-		D50ACA0B9F2841A65E7CB8F49842A2F8 /* Pod */ = {
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				0D7D427AE8B6C82B5408039A17B850F3 /* FZPhotoLibrary.podspec */,
-				22F14EACA6D14C11CB56B5028A7E5A53 /* LICENSE */,
-				D227B6278A60A12920A6F7127B5C68A6 /* README.md */,
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
 			);
-			name = Pod;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		E420997583D76E6439A804A41994F5CE /* Pods-FZPhotoLibrary_Example */ = {
@@ -210,6 +235,24 @@
 			);
 			name = "Pods-FZPhotoLibrary_Example";
 			path = "Target Support Files/Pods-FZPhotoLibrary_Example";
+			sourceTree = "<group>";
+		};
+		F58ED39E6217DEB548688AE850EE85EE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				64E4A3095CEEA19755420037BC4DBB5E /* FZAlbumHandler.h */,
+				40EFECFBBFC4EE4961596268538E69DC /* FZAlbumHandler.m */,
+				578C3532B2BC7D200F453256321AD47F /* FZImageAlbumHandler.h */,
+				D7932BC2BBEB2B183377D8C174094797 /* FZImageAlbumHandler.m */,
+				E06A6F622257BE486A419C004B18713B /* FZPHAlbum.h */,
+				D413A73A6F97806F7AFA975C5FB62EB5 /* FZPHAlbum.m */,
+				04177FAB6B99F3BA769B0A873A335183 /* FZPHAsset.h */,
+				7499E487A277FEAE6635A168F82995B6 /* FZPHAsset.m */,
+				4F8CB23AFC567FF8808DA0EAD160DD8A /* FZVideoAlbumHandler.h */,
+				26B0E6A55441F121C7858866B0EC9B6B /* FZVideoAlbumHandler.m */,
+			);
+			name = Core;
+			path = FZPhotoLibrary/Classes/Core;
 			sourceTree = "<group>";
 		};
 		FD45E803BD5ED294938D01EDBBC165CD /* Targets Support Files */ = {
@@ -232,19 +275,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9FF03601CF826A5041D2C7D4972C777E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6566F8BF48E8D569077FD06758C379C6 /* FZAlbumHandler.h in Headers */,
+				5500C104EA1AF98904C5CE64C19FF304 /* FZImageAlbumHandler.h in Headers */,
+				F152702EBC800638F91CEF77333D596D /* FZPHAlbum.h in Headers */,
+				6F1AD5016996D960F1B332AA9370CDD6 /* FZPHAsset.h in Headers */,
+				D3019E1741D04F2BC8B6EAD3073DC803 /* FZPhotoLibrary-umbrella.h in Headers */,
+				F77225739210E51376FAB0179D74FF12 /* FZPhotoLibrary.h in Headers */,
+				556F5DE35F61B48368619A057A8AF77F /* FZVideoAlbumHandler.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BA0C13DEC2DDAF9866C4561491B8F2BB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E550755B61688EA5B2387B35257DEF44 /* Pods-FZPhotoLibrary_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D6D437BE421F672C37D13D67797CA9DA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				05A362D2CEF823EFC41F6545DDBF4F18 /* FZPhotoLibrary-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,12 +321,12 @@
 		};
 		6D41CD8066F5992C794CA97490117DC8 /* FZPhotoLibrary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 811E2A33EC3A563C8BE53ACE3B2936B2 /* Build configuration list for PBXNativeTarget "FZPhotoLibrary" */;
+			buildConfigurationList = ACE02C1ABEF738F051CBBCBB591C849B /* Build configuration list for PBXNativeTarget "FZPhotoLibrary" */;
 			buildPhases = (
-				D6D437BE421F672C37D13D67797CA9DA /* Headers */,
-				D2EF6EC4B992FB1EAB24787BE1A24D88 /* Sources */,
-				B0A054C0B5BB573D3FB619DD6D5603C5 /* Frameworks */,
-				86C3096B9704BD185F10CDFD29529B42 /* Resources */,
+				9FF03601CF826A5041D2C7D4972C777E /* Headers */,
+				94650CB539496FB838F9B7DFBA84A8D3 /* Sources */,
+				0D8410DAB96D5FDF6C9772D24DDE0351 /* Frameworks */,
+				39BD7F486A84E8D790347C22CC354BF2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -343,7 +392,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86C3096B9704BD185F10CDFD29529B42 /* Resources */ = {
+		39BD7F486A84E8D790347C22CC354BF2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -368,20 +417,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		94650CB539496FB838F9B7DFBA84A8D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77ABA870BAA00B16FFE00B397451C31A /* FZAlbumHandler.m in Sources */,
+				53DDFF2BEB56EC06A72470121021D135 /* FZImageAlbumHandler.m in Sources */,
+				6CB96A8E3AD84D3818D77CC2EECE25C8 /* FZPHAlbum.m in Sources */,
+				4B301087B070A202E3FA547F068D6997 /* FZPHAsset.m in Sources */,
+				31D7CA1082E1DDE28668641DE36D8712 /* FZPhotoLibrary-dummy.m in Sources */,
+				09FFFA472AD937691C262704900F46F6 /* FZVideoAlbumHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9A7E81E04B302101B79E628A727B563D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				ADEDBFB1021AB68F0EDB58039F084DCD /* Pods-FZPhotoLibrary_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2EF6EC4B992FB1EAB24787BE1A24D88 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EA7FDB9A8033357A3E4E2E9B2F73BEC1 /* FZPhotoLibrary-dummy.m in Sources */,
-				7DFED076D27954BFE19A586C210605E8 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,37 +489,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		3914BEE44B08D1FCB57BB6648FAEA925 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09A090E4344BCF8C3107E1FCC6895AFD /* FZPhotoLibrary.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FZPhotoLibrary/FZPhotoLibrary-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FZPhotoLibrary/FZPhotoLibrary-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FZPhotoLibrary/FZPhotoLibrary.modulemap";
-				PRODUCT_MODULE_NAME = FZPhotoLibrary;
-				PRODUCT_NAME = FZPhotoLibrary;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		3CD29B8E971E129018C996D7B8902D00 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -562,6 +584,37 @@
 			};
 			name = Release;
 		};
+		7C5A1AAC8A1453D6C6196CF1B06AFB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D5C82F7FD54CA256B377F53A8CBFE8A /* FZPhotoLibrary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FZPhotoLibrary/FZPhotoLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FZPhotoLibrary/FZPhotoLibrary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FZPhotoLibrary/FZPhotoLibrary.modulemap";
+				PRODUCT_MODULE_NAME = FZPhotoLibrary;
+				PRODUCT_NAME = FZPhotoLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -626,38 +679,6 @@
 			};
 			name = Debug;
 		};
-		899B9F43F24E6D75B06E1D9EA3178BBC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09A090E4344BCF8C3107E1FCC6895AFD /* FZPhotoLibrary.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FZPhotoLibrary/FZPhotoLibrary-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FZPhotoLibrary/FZPhotoLibrary-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FZPhotoLibrary/FZPhotoLibrary.modulemap";
-				PRODUCT_MODULE_NAME = FZPhotoLibrary;
-				PRODUCT_NAME = FZPhotoLibrary;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		B48647EFCB36B5CCDFA592E774BA24BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A9EBA96DF92D2613E30894D2B95954CE /* Pods-FZPhotoLibrary_Example.debug.xcconfig */;
@@ -690,6 +711,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		CAD3581C6F88F64536B8E74C4A2F1DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D5C82F7FD54CA256B377F53A8CBFE8A /* FZPhotoLibrary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FZPhotoLibrary/FZPhotoLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FZPhotoLibrary/FZPhotoLibrary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FZPhotoLibrary/FZPhotoLibrary.modulemap";
+				PRODUCT_MODULE_NAME = FZPhotoLibrary;
+				PRODUCT_NAME = FZPhotoLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		EA62E9DE89E4D6029F8A446D528E27AC /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -745,11 +798,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		811E2A33EC3A563C8BE53ACE3B2936B2 /* Build configuration list for PBXNativeTarget "FZPhotoLibrary" */ = {
+		ACE02C1ABEF738F051CBBCBB591C849B /* Build configuration list for PBXNativeTarget "FZPhotoLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3914BEE44B08D1FCB57BB6648FAEA925 /* Debug */,
-				899B9F43F24E6D75B06E1D9EA3178BBC /* Release */,
+				7C5A1AAC8A1453D6C6196CF1B06AFB05 /* Debug */,
+				CAD3581C6F88F64536B8E74C4A2F1DE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

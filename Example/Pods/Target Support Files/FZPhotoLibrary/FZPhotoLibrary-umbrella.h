@@ -10,6 +10,12 @@
 #endif
 #endif
 
+#import "FZAlbumHandler.h"
+#import "FZImageAlbumHandler.h"
+#import "FZPHAlbum.h"
+#import "FZPHAsset.h"
+#import "FZVideoAlbumHandler.h"
+#import "FZPhotoLibrary.h"
 
 FOUNDATION_EXPORT double FZPhotoLibraryVersionNumber;
 FOUNDATION_EXPORT const unsigned char FZPhotoLibraryVersionString[];

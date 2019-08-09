@@ -1,5 +1,5 @@
 PODS:
-  - FZPhotoLibrary (0.1.0)
+  - FZPhotoLibrary (0.0.1)
 
 DEPENDENCIES:
   - FZPhotoLibrary (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FZPhotoLibrary: c0b2c34c91db9a1872a64ea28347d746460cca35
+  FZPhotoLibrary: 6cb38ccaa8987ecbdbe501476883f0a4445fc1c0
 
 PODFILE CHECKSUM: 75c23f04eaf780bcac043e8565a4a8a3032a4fa9
 

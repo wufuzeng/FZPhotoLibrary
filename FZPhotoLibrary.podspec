@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FZPhotoLibrary'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of FZPhotoLibrary.'
 
 # This description is used to generate tags and improve search results.
@@ -29,14 +29,15 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'FZPhotoLibrary/Classes/**/*'
+  s.public_header_files = 'Pod/Classes/FZPhotoLibrary.h'
+  #s.public_header_files = 'FZPhotoLibrary/Classes/FZPhotoLibrary.h'
+  s.source_files = ['FZPhotoLibrary/Classes/**/*.{h,m}']
   
   # s.resource_bundles = {
   #   'FZPhotoLibrary' => ['FZPhotoLibrary/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
