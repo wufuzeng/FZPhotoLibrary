@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		028CE69CC10FDF32D355437F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		0F1C18426E20CA1EA586C2DE /* FZPhotoLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FZPhotoLibrary.podspec; path = ../FZPhotoLibrary.podspec; sourceTree = "<group>"; };
+		028CE69CC10FDF32D355437F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0F1C18426E20CA1EA586C2DE /* FZPhotoLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FZPhotoLibrary.podspec; path = ../FZPhotoLibrary.podspec; sourceTree = "<group>"; };
 		286A7C609CD69ED73ED2E6AB /* Pods_FZPhotoLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZPhotoLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C47FE108FAE0A42DAD21DCA /* Pods-FZPhotoLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZPhotoLibrary_Example.release.xcconfig"; path = "Target Support Files/Pods-FZPhotoLibrary_Example/Pods-FZPhotoLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FZPhotoLibrary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FZPhotoLibrary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,7 +61,7 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		73B6D4A79C461EF54C6A4386 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		73B6D4A79C461EF54C6A4386 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8725C345FA59B4ECCA0E6D2F /* Pods_FZPhotoLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZPhotoLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9036D950BBFF4DB8EA78F6A0 /* Pods-FZPhotoLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZPhotoLibrary_Tests.release.xcconfig"; path = "Target Support Files/Pods-FZPhotoLibrary_Tests/Pods-FZPhotoLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				94D4066405D7909B33D5B0D9 /* Pods-FZPhotoLibrary_Tests.debug.xcconfig */,
 				9036D950BBFF4DB8EA78F6A0 /* Pods-FZPhotoLibrary_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = wufuzeng;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = ZZ7QJD8PMQ;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = F4882A47C6CE32450118CE4C /* Pods-FZPhotoLibrary_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZZ7QJD8PMQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FZPhotoLibrary/FZPhotoLibrary-Prefix.pch";
 				INFOPLIST_FILE = "FZPhotoLibrary/FZPhotoLibrary-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 2C47FE108FAE0A42DAD21DCA /* Pods-FZPhotoLibrary_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZZ7QJD8PMQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FZPhotoLibrary/FZPhotoLibrary-Prefix.pch";
 				INFOPLIST_FILE = "FZPhotoLibrary/FZPhotoLibrary-Info.plist";

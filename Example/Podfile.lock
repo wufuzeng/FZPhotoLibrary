@@ -1,0 +1,16 @@
+PODS:
+  - FZPhotoLibrary (0.1.0)
+
+DEPENDENCIES:
+  - FZPhotoLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  FZPhotoLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FZPhotoLibrary: c0b2c34c91db9a1872a64ea28347d746460cca35
+
+PODFILE CHECKSUM: 75c23f04eaf780bcac043e8565a4a8a3032a4fa9
+
+COCOAPODS: 1.8.0.beta.1

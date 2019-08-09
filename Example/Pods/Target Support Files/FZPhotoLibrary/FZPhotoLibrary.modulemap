@@ -1,0 +1,6 @@
+framework module FZPhotoLibrary {
+  umbrella header "FZPhotoLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}
