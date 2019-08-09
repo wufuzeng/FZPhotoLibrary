@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'FZPhotoLibrary_Example' do
+  pod 'FZPhotoLibrary', :path => '../'
+
+  target 'FZPhotoLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
